@@ -1,1 +1,14 @@
-/* .hero-sector{    background-color: orange !important; */
+html{
+    overflow-x: hidden;
+}
+
+.hero-sec{
+    background: linear-gradient(
+        to right,
+        red,
+        yellow
+    );
+    height: 400px;
+    place-content: center;
+
+}
